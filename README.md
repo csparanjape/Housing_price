@@ -2,6 +2,7 @@
 Predict housing sales in King's County, USA
 
 This [Dataset](https://www.kaggle.com/harlfoxem/housesalesprediction) contains Housing sales data in King's County, USA for one year i.e. May 2014 to May 2015. 
+Here, I develop ML model to predict the housing price with following features.
 
 ## Feature Columns
     
