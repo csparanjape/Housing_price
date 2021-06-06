@@ -26,3 +26,7 @@ This [Dataset](https://www.kaggle.com/harlfoxem/housesalesprediction) contains H
 * **long** - Longitude
 * **sqft_living15** - The square footage of interior housing living space for the nearest 15 neighbors
 * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
+
+
+After analyzing the data, I developed linear regression and ann models to predict the prices. 
+It is observed that ANN performs marginally better than that of the LinReg model, however, the cost of computing the ANN model is hard to justify compared to marginal improvement over LinReg.
