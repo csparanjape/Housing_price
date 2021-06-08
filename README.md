@@ -29,5 +29,9 @@ Here, I develop ML model to predict the housing price with following features.
 * **sqft_lot15** - The square footage of the land lots of the nearest 15 neighbors
 
 
-After analyzing the data, I developed linear regression and ann models to predict the prices. 
+
+
+After analyzing the data, I identified relevant features for developing prediction models. Features such as  **date** were simplified into **month** and **year** and **zipcode** feature is dropped while considering location information directly from **lat**,**long** data. Few extra categorical variables were created.
+
+Developed linear regression and ann models to predict the prices. It is observed that ANN model performs marginally better than multiple regression model, however it is much more expensive to train ANN model than a simple multiple linear regression model.
 It is observed that ANN performs marginally better than that of the LinReg model, however, the cost of computing the ANN model is hard to justify compared to marginal improvement over LinReg.
